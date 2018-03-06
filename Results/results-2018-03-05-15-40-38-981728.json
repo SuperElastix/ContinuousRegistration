@@ -1,0 +1,41 @@
+{
+    "TeamTranslationTransform": {
+        "TranslationTransform": {
+            "EMPIRE": null,
+            "DIRLAB": {
+                "DIRLAB/Case1Pack/00_to_50.nii": {
+                    "Hausdorff": 5.773002870517224,
+                    "TRE": 1.8508936360842816,
+                    "InverseConsistencyTRE": 0.03615749220879745
+                },
+                "DIRLAB/Case1Pack/50_to_00.nii": {
+                    "Hausdorff": 5.805933700241514,
+                    "TRE": 1.8638736706490195,
+                    "InverseConsistencyTRE": 0.03615769639233248
+                }
+            },
+            "POPI": {
+                "POPI/bl/00_to_50.mhd": {
+                    "Hausdorff": 14.01912843646908,
+                    "TRE": 5.708899857951523,
+                    "InverseConsistencyTRE": 0.07262497761967741
+                },
+                "POPI/bl/50_to_00.mhd": {
+                    "Hausdorff": 13.969445173390959,
+                    "TRE": 5.658495864095464,
+                    "InverseConsistencyTRE": 0.07262505181886005
+                }
+            },
+            "CUMC12": {
+                "CUMC12/m1_to_m9.nii": {
+                    "DSC": 0.5182134945541812,
+                    "InverseConsistencyDSC": 1.0
+                },
+                "CUMC12/m9_to_m1.nii": {
+                    "DSC": 1.0,
+                    "InverseConsistencyDSC": 1.0
+                }
+            }
+        }
+    }
+}
