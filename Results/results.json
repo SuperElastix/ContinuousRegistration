@@ -5,14 +5,66 @@
                 null,
                 null
             ],
-            "CUMC12": [],
             "POPI": [],
-            "DIRLAB": []
+            "DIRLAB": [],
+            "CUMC12": []
         },
         "ElastixAffineTransform": {
             "EMPIRE": [
                 null,
                 null
+            ],
+            "POPI": [
+                {
+                    "POPI/bh/00_to_50.nii.gz": {
+                        "Hausdorff": 13.833988883214396,
+                        "TRE": 6.442423012083812,
+                        "InverseConsistencyTRE": 0.05999610264261836
+                    },
+                    "POPI/bh/50_to_00.nii.gz": {
+                        "Hausdorff": 13.888932029338699,
+                        "TRE": 6.460247925965696,
+                        "InverseConsistencyTRE": 0.06154356244660358
+                    }
+                },
+                {
+                    "POPI/bl/50_to_00.nii.gz": {
+                        "Hausdorff": 13.105691463268355,
+                        "TRE": 5.284212863978167,
+                        "InverseConsistencyTRE": 0.08955195900005364
+                    },
+                    "POPI/bl/00_to_50.nii.gz": {
+                        "Hausdorff": 13.227493801787016,
+                        "TRE": 5.312253694782201,
+                        "InverseConsistencyTRE": 0.0901753574084275
+                    }
+                }
+            ],
+            "DIRLAB": [
+                {
+                    "DIRLAB/Case10Pack/00_to_50.nii.gz": {
+                        "Hausdorff": 14.201511094341202,
+                        "TRE": 3.850570899391264,
+                        "InverseConsistencyTRE": 0.067508836523863
+                    },
+                    "DIRLAB/Case10Pack/50_to_00.nii.gz": {
+                        "Hausdorff": 14.110506678191953,
+                        "TRE": 3.823458912781128,
+                        "InverseConsistencyTRE": 0.06819874849898405
+                    }
+                },
+                {
+                    "DIRLAB/Case1Pack/50_to_00.nii.gz": {
+                        "Hausdorff": 5.411577467596682,
+                        "TRE": 1.8687038241747411,
+                        "InverseConsistencyTRE": 0.0805141199338237
+                    },
+                    "DIRLAB/Case1Pack/00_to_50.nii.gz": {
+                        "Hausdorff": 5.370148249825147,
+                        "TRE": 1.8437312633981386,
+                        "InverseConsistencyTRE": 0.07871375586953593
+                    }
+                }
             ],
             "CUMC12": [
                 {
@@ -26,65 +78,13 @@
                     }
                 },
                 {
-                    "CUMC12/m1_to_m9.nii.gz": {
-                        "DSC": 0.5182134945541812,
-                        "InverseConsistencyDSC": 1.0
-                    },
                     "CUMC12/m9_to_m1.nii.gz": {
                         "DSC": 0.5182134945541812,
                         "InverseConsistencyDSC": 1.0
-                    }
-                }
-            ],
-            "POPI": [
-                {
-                    "POPI/bh/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.05999610264261836,
-                        "Hausdorff": 13.833988883214396,
-                        "TRE": 6.442423012083812
                     },
-                    "POPI/bh/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.06154356244660358,
-                        "Hausdorff": 13.888932029338699,
-                        "TRE": 6.460247925965696
-                    }
-                },
-                {
-                    "POPI/bl/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.08955195900005364,
-                        "Hausdorff": 13.105691463268355,
-                        "TRE": 5.284212863978167
-                    },
-                    "POPI/bl/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.0901753574084275,
-                        "Hausdorff": 13.227493801787016,
-                        "TRE": 5.312253694782201
-                    }
-                }
-            ],
-            "DIRLAB": [
-                {
-                    "DIRLAB/Case10Pack/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.06819874849898405,
-                        "Hausdorff": 14.110506678191953,
-                        "TRE": 3.823458912781128
-                    },
-                    "DIRLAB/Case10Pack/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.067508836523863,
-                        "Hausdorff": 14.201511094341202,
-                        "TRE": 3.850570899391264
-                    }
-                },
-                {
-                    "DIRLAB/Case1Pack/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.0805141199338237,
-                        "Hausdorff": 5.411577467596682,
-                        "TRE": 1.8687038241747411
-                    },
-                    "DIRLAB/Case1Pack/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.07871375586953593,
-                        "Hausdorff": 5.370148249825147,
-                        "TRE": 1.8437312633981386
+                    "CUMC12/m1_to_m9.nii.gz": {
+                        "DSC": 0.5182134945541812,
+                        "InverseConsistencyDSC": 1.0
                     }
                 }
             ]
@@ -96,6 +96,58 @@
                 null,
                 null
             ],
+            "POPI": [
+                {
+                    "POPI/bh/00_to_50.nii.gz": {
+                        "Hausdorff": 14.048917998482962,
+                        "TRE": 6.509754011521768,
+                        "InverseConsistencyTRE": 0.02368668268427024
+                    },
+                    "POPI/bh/50_to_00.nii.gz": {
+                        "Hausdorff": 14.065240303764257,
+                        "TRE": 6.525850321434188,
+                        "InverseConsistencyTRE": 0.02368732064586319
+                    }
+                },
+                {
+                    "POPI/bl/50_to_00.nii.gz": {
+                        "Hausdorff": 13.969445173390959,
+                        "TRE": 5.658495864095464,
+                        "InverseConsistencyTRE": 0.07262505181886005
+                    },
+                    "POPI/bl/00_to_50.nii.gz": {
+                        "Hausdorff": 14.01912843646908,
+                        "TRE": 5.708899857951523,
+                        "InverseConsistencyTRE": 0.07262497761967741
+                    }
+                }
+            ],
+            "DIRLAB": [
+                {
+                    "DIRLAB/Case10Pack/00_to_50.nii.gz": {
+                        "Hausdorff": 14.183246191027644,
+                        "TRE": 3.814127021457868,
+                        "InverseConsistencyTRE": 0.03860159404278636
+                    },
+                    "DIRLAB/Case10Pack/50_to_00.nii.gz": {
+                        "Hausdorff": 14.158470134689694,
+                        "TRE": 3.8076546936950204,
+                        "InverseConsistencyTRE": 0.0386017025641176
+                    }
+                },
+                {
+                    "DIRLAB/Case1Pack/50_to_00.nii.gz": {
+                        "Hausdorff": 5.805933700241514,
+                        "TRE": 1.8638736706490195,
+                        "InverseConsistencyTRE": 0.03615769639233248
+                    },
+                    "DIRLAB/Case1Pack/00_to_50.nii.gz": {
+                        "Hausdorff": 5.773002870517224,
+                        "TRE": 1.8508936360842816,
+                        "InverseConsistencyTRE": 0.03615749220879745
+                    }
+                }
+            ],
             "CUMC12": [
                 {
                     "CUMC12/m1_to_m12.nii.gz": {
@@ -108,65 +160,13 @@
                     }
                 },
                 {
-                    "CUMC12/m1_to_m9.nii.gz": {
-                        "DSC": 0.5182134945541812,
-                        "InverseConsistencyDSC": 1.0
-                    },
                     "CUMC12/m9_to_m1.nii.gz": {
                         "DSC": 0.5182134945541812,
                         "InverseConsistencyDSC": 1.0
-                    }
-                }
-            ],
-            "POPI": [
-                {
-                    "POPI/bh/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.02368668268427024,
-                        "Hausdorff": 14.048917998482962,
-                        "TRE": 6.509754011521768
                     },
-                    "POPI/bh/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.02368732064586319,
-                        "Hausdorff": 14.065240303764257,
-                        "TRE": 6.525850321434188
-                    }
-                },
-                {
-                    "POPI/bl/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.07262505181886005,
-                        "Hausdorff": 13.969445173390959,
-                        "TRE": 5.658495864095464
-                    },
-                    "POPI/bl/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.07262497761967741,
-                        "Hausdorff": 14.01912843646908,
-                        "TRE": 5.708899857951523
-                    }
-                }
-            ],
-            "DIRLAB": [
-                {
-                    "DIRLAB/Case10Pack/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.0386017025641176,
-                        "Hausdorff": 14.158470134689694,
-                        "TRE": 3.8076546936950204
-                    },
-                    "DIRLAB/Case10Pack/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.03860159404278636,
-                        "Hausdorff": 14.183246191027644,
-                        "TRE": 3.814127021457868
-                    }
-                },
-                {
-                    "DIRLAB/Case1Pack/50_to_00.nii.gz": {
-                        "InverseConsistencyTRE": 0.03615769639233248,
-                        "Hausdorff": 5.805933700241514,
-                        "TRE": 1.8638736706490195
-                    },
-                    "DIRLAB/Case1Pack/00_to_50.nii.gz": {
-                        "InverseConsistencyTRE": 0.03615749220879745,
-                        "Hausdorff": 5.773002870517224,
-                        "TRE": 1.8508936360842816
+                    "CUMC12/m1_to_m9.nii.gz": {
+                        "DSC": 0.5182134945541812,
+                        "InverseConsistencyDSC": 1.0
                     }
                 }
             ]
