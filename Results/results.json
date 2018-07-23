@@ -1,57 +1,57 @@
 {
     "RB": {
+        "PreliminaryAffine_DIRLAB": {
+            "DIRLAB": [
+                {
+                    "DIRLAB/Case10Pack/50_to_00.mha": {
+                        "TRE": 3.120162934355277,
+                        "InverseConsistencyTRE": 1.5018032454334789,
+                        "Hausdorff": 11.695770108402444
+                    },
+                    "DIRLAB/Case10Pack/00_to_50.mha": {
+                        "TRE": 4.25995044177374,
+                        "InverseConsistencyTRE": 1.425854806452557,
+                        "Hausdorff": 12.658368762498585
+                    }
+                },
+                {
+                    "DIRLAB/Case1Pack/00_to_50.mha": {
+                        "TRE": 2.2294548094819278,
+                        "InverseConsistencyTRE": 0.23785260307742162,
+                        "Hausdorff": 5.3242076830383995
+                    },
+                    "DIRLAB/Case1Pack/50_to_00.mha": {
+                        "TRE": 2.003521442662978,
+                        "InverseConsistencyTRE": 0.24734553448873944,
+                        "Hausdorff": 5.269659792330049
+                    }
+                }
+            ]
+        },
         "PreliminaryAffine_POPI": {
             "POPI": [
                 {
                     "POPI/bh/50_to_00.mha": {
                         "TRE": 2.8350438402043916,
-                        "Hausdorff": 7.547517705347222,
-                        "InverseConsistencyTRE": 0.14397689072296257
+                        "InverseConsistencyTRE": 0.14397689072296257,
+                        "Hausdorff": 7.547517705347222
                     },
                     "POPI/bh/00_to_50.mha": {
                         "TRE": 2.949976378904364,
-                        "Hausdorff": 7.753563023418342,
-                        "InverseConsistencyTRE": 0.1390626939138784
+                        "InverseConsistencyTRE": 0.1390626939138784,
+                        "Hausdorff": 7.753563023418342
                     }
                 },
                 {
                     "POPI/bl/50_to_00.mha": {
                         "TRE": 3.1323144709146358,
-                        "Hausdorff": 7.418603491676314,
-                        "InverseConsistencyTRE": 0.31058290833708463
+                        "InverseConsistencyTRE": 0.31058290833708463,
+                        "Hausdorff": 7.418603491676314
                     },
                     "POPI/bl/00_to_50.mha": {
                         "TRE": 3.378186846773196,
-                        "Hausdorff": 7.988484046205011,
-                        "InverseConsistencyTRE": 0.3009967030462434
-                    }
-                }
-            ]
-        },
-        "PreliminaryAffine_DIRLAB": {
-            "DIRLAB": [
-                {
-                    "DIRLAB/Case10Pack/00_to_50.mha": {
-                        "TRE": 4.25995044177374,
-                        "Hausdorff": 12.658368762498585,
-                        "InverseConsistencyTRE": 1.425854806452557
-                    },
-                    "DIRLAB/Case10Pack/50_to_00.mha": {
-                        "TRE": 3.120162934355277,
-                        "Hausdorff": 11.695770108402444,
-                        "InverseConsistencyTRE": 1.5018032454334789
-                    }
-                },
-                {
-                    "DIRLAB/Case1Pack/50_to_00.mha": {
-                        "TRE": 2.003521442662978,
-                        "Hausdorff": 5.269659792330049,
-                        "InverseConsistencyTRE": 0.24734553448873944
-                    },
-                    "DIRLAB/Case1Pack/00_to_50.mha": {
-                        "TRE": 2.2294548094819278,
-                        "Hausdorff": 5.3242076830383995,
-                        "InverseConsistencyTRE": 0.23785260307742162
+                        "InverseConsistencyTRE": 0.3009967030462434,
+                        "Hausdorff": 7.988484046205011
                     }
                 }
             ]
@@ -69,13 +69,13 @@
                     }
                 },
                 {
-                    "CUMC12/m1_to_m9.mha": {
-                        "DSC": 0.5068834760468827,
-                        "InverseConsistencyDSC": 0.9137348309257618
-                    },
                     "CUMC12/m9_to_m1.mha": {
                         "DSC": 0.5046004381020466,
                         "InverseConsistencyDSC": 0.9272117121578727
+                    },
+                    "CUMC12/m1_to_m9.mha": {
+                        "DSC": 0.5068834760468827,
+                        "InverseConsistencyDSC": 0.9137348309257618
                     }
                 }
             ]
@@ -83,6 +83,32 @@
     },
     "TeamElastix": {
         "ITKv4_SyN_CC": {
+            "POPI": [
+                {
+                    "POPI/bh/50_to_00.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "POPI/bh/00_to_50.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    }
+                },
+                {
+                    "POPI/bl/50_to_00.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "POPI/bl/00_to_50.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    }
+                }
+            ],
             "CUMC12": [
                 {
                     "CUMC12/m1_to_m12.mha": {
@@ -95,131 +121,87 @@
                     }
                 },
                 {
-                    "CUMC12/m1_to_m9.mha": {
-                        "DSC": 0.27343383246699987,
-                        "InverseConsistencyDSC": 0.7336182818132948
-                    },
                     "CUMC12/m9_to_m1.mha": {
                         "DSC": 0.24478836426682424,
                         "InverseConsistencyDSC": 0.7204501571380417
-                    }
-                }
-            ],
-            "SPREAD": [
-                {
-                    "SPREAD/p000/followup_to_baseline.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
                     },
-                    "SPREAD/p000/baseline_to_followup.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    }
-                },
-                {
-                    "SPREAD/p001/baseline_to_followup.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    },
-                    "SPREAD/p001/followup_to_baseline.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    }
-                }
-            ],
-            "ISBR18": [
-                {
-                    "ISBR18/c10_to_c12.mha": {
-                        "DSC": 0.008540115020915335,
-                        "InverseConsistencyDSC": 0.9018612049706433
-                    },
-                    "ISBR18/c12_to_c10.mha": {
-                        "DSC": 0.016484964819909027,
-                        "InverseConsistencyDSC": 0.8074451696030924
-                    }
-                },
-                {
-                    "ISBR18/c10_to_c14.mha": {
-                        "DSC": 0.03323137869452985,
-                        "InverseConsistencyDSC": 0.026549143046753404
-                    },
-                    "ISBR18/c14_to_c10.mha": {
-                        "DSC": 0.14780820185583912,
-                        "InverseConsistencyDSC": 0.007281550491205253
-                    }
-                }
-            ],
-            "MGH10": [
-                {
-                    "MGH10/g9_to_g1.mha": {
-                        "DSC": 0.09019581476387303,
-                        "InverseConsistencyDSC": 0.8791512797614994
-                    },
-                    "MGH10/g1_to_g9.mha": {
-                        "DSC": 0.09548917579099989,
-                        "InverseConsistencyDSC": 0.8518919779157026
-                    }
-                },
-                {
-                    "MGH10/g3_to_g1.mha": {
-                        "DSC": 0.263686739785243,
-                        "InverseConsistencyDSC": 0.9524265178390655
-                    },
-                    "MGH10/g1_to_g3.mha": {
-                        "DSC": 0.2545380473622453,
-                        "InverseConsistencyDSC": 0.9496852033384404
-                    }
-                }
-            ],
-            "HAMMERS": [
-                {
-                    "HAMMERS/a28.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a01.nii_to_a28.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "HAMMERS/a01.nii_to_a26.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a26.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
+                    "CUMC12/m1_to_m9.mha": {
+                        "DSC": 0.27343383246699987,
+                        "InverseConsistencyDSC": 0.7336182818132948
                     }
                 }
             ],
             "DIRLAB": [
                 {
-                    "DIRLAB/Case10Pack/00_to_50.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    },
                     "DIRLAB/Case10Pack/50_to_00.mha": {
                         "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "DIRLAB/Case10Pack/00_to_50.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     }
                 },
                 {
-                    "DIRLAB/Case1Pack/50_to_00.mha": {
-                        "TRE": 44.36325293133502,
-                        "Hausdorff": 104.69084939272342,
-                        "InverseConsistencyTRE": 3.452332038137372
-                    },
                     "DIRLAB/Case1Pack/00_to_50.mha": {
                         "TRE": 42.420114079371636,
-                        "Hausdorff": 112.21403252329655,
-                        "InverseConsistencyTRE": 4.461537704299443
+                        "InverseConsistencyTRE": 4.461537704299443,
+                        "Hausdorff": 112.21403252329655
+                    },
+                    "DIRLAB/Case1Pack/50_to_00.mha": {
+                        "TRE": 44.36325293133502,
+                        "InverseConsistencyTRE": 3.452332038137372,
+                        "Hausdorff": 104.69084939272342
+                    }
+                }
+            ],
+            "EMPIRE": [
+                null,
+                null
+            ],
+            "HAMMERS": [
+                {
+                    "HAMMERS/a01.nii_to_a28.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a28.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/a26.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a01.nii_to_a26.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ],
+            "ISBR18": [
+                {
+                    "ISBR18/c12_to_c10.mha": {
+                        "DSC": 0.016484964819909027,
+                        "InverseConsistencyDSC": 0.8074451696030924
+                    },
+                    "ISBR18/c10_to_c12.mha": {
+                        "DSC": 0.008540115020915335,
+                        "InverseConsistencyDSC": 0.9018612049706433
+                    }
+                },
+                {
+                    "ISBR18/c14_to_c10.mha": {
+                        "DSC": 0.14780820185583912,
+                        "InverseConsistencyDSC": 0.007281550491205253
+                    },
+                    "ISBR18/c10_to_c14.mha": {
+                        "DSC": 0.03323137869452985,
+                        "InverseConsistencyDSC": 0.026549143046753404
                     }
                 }
             ],
@@ -235,471 +217,151 @@
                     }
                 },
                 {
-                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": 0.22933273581283675,
-                        "InverseConsistencyDSC": 0.9322380425985209
-                    },
                     "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
                         "DSC": 0.23553856950685986,
                         "InverseConsistencyDSC": 0.9194582839893626
-                    }
-                }
-            ],
-            "POPI": [
-                {
-                    "POPI/bh/50_to_00.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
                     },
-                    "POPI/bh/00_to_50.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    }
-                },
-                {
-                    "POPI/bl/50_to_00.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    },
-                    "POPI/bl/00_to_50.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    }
-                }
-            ],
-            "EMPIRE": [
-                null,
-                null
-            ]
-        },
-        "BSplineTransformBrains": {
-            "CUMC12": [
-                {
-                    "CUMC12/m1_to_m12.mha": {
-                        "DSC": 0.5806383641495534,
-                        "InverseConsistencyDSC": 0.6987081922022318
-                    },
-                    "CUMC12/m12_to_m1.mha": {
-                        "DSC": 0.5821410443420377,
-                        "InverseConsistencyDSC": 0.6856787383493539
-                    }
-                },
-                {
-                    "CUMC12/m1_to_m9.mha": {
-                        "DSC": 0.5834588909745464,
-                        "InverseConsistencyDSC": 0.6992855013863598
-                    },
-                    "CUMC12/m9_to_m1.mha": {
-                        "DSC": 0.5786512515780533,
-                        "InverseConsistencyDSC": 0.7109514244490339
-                    }
-                }
-            ],
-            "LPBA40": [
-                {
-                    "LPBA40/S07.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": 0.7318562636561292,
-                        "InverseConsistencyDSC": 0.8009545734105236
-                    },
-                    "LPBA40/S01.delineation.skullstripped_to_S07.delineation.skullstripped.mha": {
-                        "DSC": 0.7402378325150845,
-                        "InverseConsistencyDSC": 0.8034519619920923
-                    }
-                },
-                {
                     "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": 0.7164045392543502,
-                        "InverseConsistencyDSC": 0.7915260035282088
-                    },
-                    "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
-                        "DSC": 0.7050184766937789,
-                        "InverseConsistencyDSC": 0.7953475070280269
-                    }
-                }
-            ],
-            "ISBR18": [
-                {
-                    "ISBR18/c10_to_c12.mha": {
-                        "DSC": 0.309198783494713,
-                        "InverseConsistencyDSC": 0.5466346979981098
-                    },
-                    "ISBR18/c12_to_c10.mha": {
-                        "DSC": 0.3377825665106755,
-                        "InverseConsistencyDSC": 0.5886498809754975
-                    }
-                },
-                {
-                    "ISBR18/c10_to_c14.mha": {
-                        "DSC": 0.24856716067010148,
-                        "InverseConsistencyDSC": 0.6691738843584715
-                    },
-                    "ISBR18/c14_to_c10.mha": {
-                        "DSC": 0.26042641745163453,
-                        "InverseConsistencyDSC": 0.629436272770586
+                        "DSC": 0.22933273581283675,
+                        "InverseConsistencyDSC": 0.9322380425985209
                     }
                 }
             ],
             "MGH10": [
                 {
-                    "MGH10/g9_to_g1.mha": {
-                        "DSC": 0.5733094727939718,
-                        "InverseConsistencyDSC": 0.8339863603806725
-                    },
                     "MGH10/g1_to_g9.mha": {
-                        "DSC": 0.5796685303496498,
-                        "InverseConsistencyDSC": 0.8451838938142513
+                        "DSC": 0.09548917579099989,
+                        "InverseConsistencyDSC": 0.8518919779157026
+                    },
+                    "MGH10/g9_to_g1.mha": {
+                        "DSC": 0.09019581476387303,
+                        "InverseConsistencyDSC": 0.8791512797614994
                     }
                 },
                 {
                     "MGH10/g3_to_g1.mha": {
-                        "DSC": 0.5509899447601887,
-                        "InverseConsistencyDSC": 0.8174499532315525
+                        "DSC": 0.263686739785243,
+                        "InverseConsistencyDSC": 0.9524265178390655
                     },
                     "MGH10/g1_to_g3.mha": {
-                        "DSC": 0.5496764653803978,
-                        "InverseConsistencyDSC": 0.8256946684708409
+                        "DSC": 0.2545380473622453,
+                        "InverseConsistencyDSC": 0.9496852033384404
                     }
                 }
-            ],
-            "HAMMERS": [
-                {
-                    "HAMMERS/a28.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a01.nii_to_a28.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "HAMMERS/a01.nii_to_a26.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a26.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                }
-            ]
-        },
-        "AffineTransformHisto": {},
-        "BSplineTransformPOPI": {
-            "POPI": [
-                {
-                    "POPI/bh/50_to_00.mha": {
-                        "TRE": 1.2689896970022456,
-                        "Hausdorff": 8.446506651339634,
-                        "InverseConsistencyTRE": 0.5407680906859841
-                    },
-                    "POPI/bh/00_to_50.mha": {
-                        "TRE": 1.2700437871428434,
-                        "Hausdorff": 8.245264185585556,
-                        "InverseConsistencyTRE": 0.5420111239547837
-                    }
-                },
-                {
-                    "POPI/bl/50_to_00.mha": {
-                        "TRE": 1.1490280167678604,
-                        "Hausdorff": 4.885551785775276,
-                        "InverseConsistencyTRE": 0.5445024962927247
-                    },
-                    "POPI/bl/00_to_50.mha": {
-                        "TRE": 1.2267041281617217,
-                        "Hausdorff": 3.571727448472371,
-                        "InverseConsistencyTRE": 0.5386004586607579
-                    }
-                }
-            ],
-            "EMPIRE": [
-                null,
-                null
             ],
             "SPREAD": [
                 {
-                    "SPREAD/p000/followup_to_baseline.mha": {
-                        "TRE": 1.8014246630160613,
-                        "Hausdorff": 13.621956809163423,
-                        "InverseConsistencyTRE": 0.6070470979201259
-                    },
                     "SPREAD/p000/baseline_to_followup.mha": {
-                        "TRE": 1.6920805472601925,
-                        "Hausdorff": 14.287158789977015,
-                        "InverseConsistencyTRE": 0.651753204301878
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "SPREAD/p000/followup_to_baseline.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     }
                 },
                 {
-                    "SPREAD/p001/baseline_to_followup.mha": {
-                        "TRE": 1.3295240190149398,
-                        "Hausdorff": 7.05788530865024,
-                        "InverseConsistencyTRE": 0.39860838303171875
-                    },
                     "SPREAD/p001/followup_to_baseline.mha": {
-                        "TRE": 1.3744893860568523,
-                        "Hausdorff": 6.745258682582975,
-                        "InverseConsistencyTRE": 0.38092830717294673
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "SPREAD/p001/baseline_to_followup.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     }
                 }
             ]
         },
         "BSplineTransformDIRLAB": {
-            "DIRLAB": [
-                {
-                    "DIRLAB/Case10Pack/00_to_50.mha": {
-                        "TRE": 3.8250655488872667,
-                        "Hausdorff": 13.872686980165597,
-                        "InverseConsistencyTRE": 0.6379599845934327
-                    },
-                    "DIRLAB/Case10Pack/50_to_00.mha": {
-                        "TRE": 3.785627242719094,
-                        "Hausdorff": 13.10944702500453,
-                        "InverseConsistencyTRE": 0.6451568587767954
-                    }
-                },
-                {
-                    "DIRLAB/Case1Pack/50_to_00.mha": {
-                        "TRE": 2.0147712299856315,
-                        "Hausdorff": 5.564035449284986,
-                        "InverseConsistencyTRE": 0.47485119301297424
-                    },
-                    "DIRLAB/Case1Pack/00_to_50.mha": {
-                        "TRE": 2.1520593527831555,
-                        "Hausdorff": 6.236049475597514,
-                        "InverseConsistencyTRE": 0.4809884652764369
-                    }
-                }
-            ],
-            "SPREAD": [
-                {
-                    "SPREAD/p000/followup_to_baseline.mha": {
-                        "TRE": 1.8014246630160613,
-                        "Hausdorff": 13.621956809163423,
-                        "InverseConsistencyTRE": 0.6070470979201259
-                    },
-                    "SPREAD/p000/baseline_to_followup.mha": {
-                        "TRE": 1.6920805472601925,
-                        "Hausdorff": 14.287158789977015,
-                        "InverseConsistencyTRE": 0.651753204301878
-                    }
-                },
-                {
-                    "SPREAD/p001/baseline_to_followup.mha": {
-                        "TRE": 1.3295240190149398,
-                        "Hausdorff": 7.05788530865024,
-                        "InverseConsistencyTRE": 0.39860838303171875
-                    },
-                    "SPREAD/p001/followup_to_baseline.mha": {
-                        "TRE": 1.3744893860568523,
-                        "Hausdorff": 6.745258682582975,
-                        "InverseConsistencyTRE": 0.38092830717294673
-                    }
-                }
-            ],
             "EMPIRE": [
                 null,
                 null
-            ]
-        },
-        "NiftyRegITKHybrid": {
-            "CUMC12": [
-                {
-                    "CUMC12/m1_to_m12.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "CUMC12/m12_to_m1.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "CUMC12/m1_to_m9.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "CUMC12/m9_to_m1.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                }
             ],
             "SPREAD": [
                 {
-                    "SPREAD/p000/followup_to_baseline.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    },
                     "SPREAD/p000/baseline_to_followup.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "TRE": 1.6920805472601925,
+                        "InverseConsistencyTRE": 0.651753204301878,
+                        "Hausdorff": 14.287158789977015
+                    },
+                    "SPREAD/p000/followup_to_baseline.mha": {
+                        "TRE": 1.8014246630160613,
+                        "InverseConsistencyTRE": 0.6070470979201259,
+                        "Hausdorff": 13.621956809163423
                     }
                 },
                 {
-                    "SPREAD/p001/baseline_to_followup.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    },
                     "SPREAD/p001/followup_to_baseline.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    }
-                }
-            ],
-            "ISBR18": [
-                {
-                    "ISBR18/c10_to_c12.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
+                        "TRE": 1.3744893860568523,
+                        "InverseConsistencyTRE": 0.38092830717294673,
+                        "Hausdorff": 6.745258682582975
                     },
-                    "ISBR18/c12_to_c10.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "ISBR18/c10_to_c14.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "ISBR18/c14_to_c10.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                }
-            ],
-            "MGH10": [
-                {
-                    "MGH10/g9_to_g1.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "MGH10/g1_to_g9.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "MGH10/g3_to_g1.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "MGH10/g1_to_g3.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                }
-            ],
-            "HAMMERS": [
-                {
-                    "HAMMERS/a28.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a01.nii_to_a28.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "HAMMERS/a01.nii_to_a26.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a26.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
+                    "SPREAD/p001/baseline_to_followup.mha": {
+                        "TRE": 1.3295240190149398,
+                        "InverseConsistencyTRE": 0.39860838303171875,
+                        "Hausdorff": 7.05788530865024
                     }
                 }
             ],
             "DIRLAB": [
                 {
-                    "DIRLAB/Case10Pack/00_to_50.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    },
                     "DIRLAB/Case10Pack/50_to_00.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "TRE": 3.785627242719094,
+                        "InverseConsistencyTRE": 0.6451568587767954,
+                        "Hausdorff": 13.10944702500453
+                    },
+                    "DIRLAB/Case10Pack/00_to_50.mha": {
+                        "TRE": 3.8250655488872667,
+                        "InverseConsistencyTRE": 0.6379599845934327,
+                        "Hausdorff": 13.872686980165597
                     }
                 },
                 {
-                    "DIRLAB/Case1Pack/50_to_00.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
-                    },
                     "DIRLAB/Case1Pack/00_to_50.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "TRE": 2.1520593527831555,
+                        "InverseConsistencyTRE": 0.4809884652764369,
+                        "Hausdorff": 6.236049475597514
+                    },
+                    "DIRLAB/Case1Pack/50_to_00.mha": {
+                        "TRE": 2.0147712299856315,
+                        "InverseConsistencyTRE": 0.47485119301297424,
+                        "Hausdorff": 5.564035449284986
                     }
                 }
-            ],
-            "LPBA40": [
-                {
-                    "LPBA40/S07.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "LPBA40/S01.delineation.skullstripped_to_S07.delineation.skullstripped.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                }
-            ],
+            ]
+        },
+        "AffineTransformHisto": {},
+        "AffineTransform": {
             "POPI": [
                 {
                     "POPI/bh/50_to_00.mha": {
                         "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     },
                     "POPI/bh/00_to_50.mha": {
                         "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     }
                 },
                 {
                     "POPI/bl/50_to_00.mha": {
                         "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     },
                     "POPI/bl/00_to_50.mha": {
                         "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     }
                 }
             ],
-            "EMPIRE": [
-                null,
-                null
-            ]
-        },
-        "AffineTransform": {
             "CUMC12": [
                 {
                     "CUMC12/m1_to_m12.mha": {
@@ -712,131 +374,87 @@
                     }
                 },
                 {
-                    "CUMC12/m1_to_m9.mha": {
-                        "DSC": 0.5448040413303912,
-                        "InverseConsistencyDSC": 0.8937804566780836
-                    },
                     "CUMC12/m9_to_m1.mha": {
                         "DSC": 0.5457075876666839,
                         "InverseConsistencyDSC": 0.9036408867154976
-                    }
-                }
-            ],
-            "SPREAD": [
-                {
-                    "SPREAD/p000/followup_to_baseline.mha": {
-                        "TRE": 6.497645875174426,
-                        "Hausdorff": 19.85644763341074,
-                        "InverseConsistencyTRE": 3.3785966538308414
                     },
-                    "SPREAD/p000/baseline_to_followup.mha": {
-                        "TRE": 5.628624919037252,
-                        "Hausdorff": 15.372080579144635,
-                        "InverseConsistencyTRE": 3.5439201802719076
-                    }
-                },
-                {
-                    "SPREAD/p001/baseline_to_followup.mha": {
-                        "TRE": 1.6321425317167553,
-                        "Hausdorff": 5.254044056286555,
-                        "InverseConsistencyTRE": 1.0075819854489918
-                    },
-                    "SPREAD/p001/followup_to_baseline.mha": {
-                        "TRE": 1.8314110269205157,
-                        "Hausdorff": 7.422710754959092,
-                        "InverseConsistencyTRE": 0.9736271368621798
-                    }
-                }
-            ],
-            "ISBR18": [
-                {
-                    "ISBR18/c10_to_c12.mha": {
-                        "DSC": 0.34616415682937596,
-                        "InverseConsistencyDSC": 0.7830553273198749
-                    },
-                    "ISBR18/c12_to_c10.mha": {
-                        "DSC": 0.35569978888428094,
-                        "InverseConsistencyDSC": 0.7786788459712045
-                    }
-                },
-                {
-                    "ISBR18/c10_to_c14.mha": {
-                        "DSC": 0.2810673156534611,
-                        "InverseConsistencyDSC": 0.6650041511305543
-                    },
-                    "ISBR18/c14_to_c10.mha": {
-                        "DSC": 0.2225940747372324,
-                        "InverseConsistencyDSC": 0.6127630213247782
-                    }
-                }
-            ],
-            "MGH10": [
-                {
-                    "MGH10/g9_to_g1.mha": {
-                        "DSC": 0.6040505176428537,
-                        "InverseConsistencyDSC": 0.8848962720151119
-                    },
-                    "MGH10/g1_to_g9.mha": {
-                        "DSC": 0.6056547811091951,
-                        "InverseConsistencyDSC": 0.8878686688999065
-                    }
-                },
-                {
-                    "MGH10/g3_to_g1.mha": {
-                        "DSC": 0.573079099552497,
-                        "InverseConsistencyDSC": 0.831701847789777
-                    },
-                    "MGH10/g1_to_g3.mha": {
-                        "DSC": 0.587123286718515,
-                        "InverseConsistencyDSC": 0.8345830528005801
-                    }
-                }
-            ],
-            "HAMMERS": [
-                {
-                    "HAMMERS/a28.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a01.nii_to_a28.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "HAMMERS/a01.nii_to_a26.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a26.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
+                    "CUMC12/m1_to_m9.mha": {
+                        "DSC": 0.5448040413303912,
+                        "InverseConsistencyDSC": 0.8937804566780836
                     }
                 }
             ],
             "DIRLAB": [
                 {
-                    "DIRLAB/Case10Pack/00_to_50.mha": {
-                        "TRE": 3.788342986532979,
-                        "Hausdorff": 14.077557155853615,
-                        "InverseConsistencyTRE": 0.09837973237862328
-                    },
                     "DIRLAB/Case10Pack/50_to_00.mha": {
                         "TRE": 3.724372889185998,
-                        "Hausdorff": 13.946529479856274,
-                        "InverseConsistencyTRE": 0.09901980621973722
+                        "InverseConsistencyTRE": 0.09901980621973722,
+                        "Hausdorff": 13.946529479856274
+                    },
+                    "DIRLAB/Case10Pack/00_to_50.mha": {
+                        "TRE": 3.788342986532979,
+                        "InverseConsistencyTRE": 0.09837973237862328,
+                        "Hausdorff": 14.077557155853615
                     }
                 },
                 {
-                    "DIRLAB/Case1Pack/50_to_00.mha": {
-                        "TRE": 1.8859828965344252,
-                        "Hausdorff": 5.439977284750364,
-                        "InverseConsistencyTRE": 0.07585988581041869
-                    },
                     "DIRLAB/Case1Pack/00_to_50.mha": {
                         "TRE": 1.8743469580048606,
-                        "Hausdorff": 5.523698857151789,
-                        "InverseConsistencyTRE": 0.07466601220958426
+                        "InverseConsistencyTRE": 0.07466601220958426,
+                        "Hausdorff": 5.523698857151789
+                    },
+                    "DIRLAB/Case1Pack/50_to_00.mha": {
+                        "TRE": 1.8859828965344252,
+                        "InverseConsistencyTRE": 0.07585988581041869,
+                        "Hausdorff": 5.439977284750364
+                    }
+                }
+            ],
+            "EMPIRE": [
+                null,
+                null
+            ],
+            "HAMMERS": [
+                {
+                    "HAMMERS/a01.nii_to_a28.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a28.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/a26.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a01.nii_to_a26.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ],
+            "ISBR18": [
+                {
+                    "ISBR18/c12_to_c10.mha": {
+                        "DSC": 0.35569978888428094,
+                        "InverseConsistencyDSC": 0.7786788459712045
+                    },
+                    "ISBR18/c10_to_c12.mha": {
+                        "DSC": 0.34616415682937596,
+                        "InverseConsistencyDSC": 0.7830553273198749
+                    }
+                },
+                {
+                    "ISBR18/c14_to_c10.mha": {
+                        "DSC": 0.2225940747372324,
+                        "InverseConsistencyDSC": 0.6127630213247782
+                    },
+                    "ISBR18/c10_to_c14.mha": {
+                        "DSC": 0.2810673156534611,
+                        "InverseConsistencyDSC": 0.6650041511305543
                     }
                 }
             ],
@@ -852,48 +470,92 @@
                     }
                 },
                 {
-                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": 0.6618037210248834,
-                        "InverseConsistencyDSC": 0.9113050424969285
-                    },
                     "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
                         "DSC": 0.6648843135256345,
                         "InverseConsistencyDSC": 0.9090166183984721
+                    },
+                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
+                        "DSC": 0.6618037210248834,
+                        "InverseConsistencyDSC": 0.9113050424969285
                     }
                 }
             ],
+            "MGH10": [
+                {
+                    "MGH10/g1_to_g9.mha": {
+                        "DSC": 0.6056547811091951,
+                        "InverseConsistencyDSC": 0.8878686688999065
+                    },
+                    "MGH10/g9_to_g1.mha": {
+                        "DSC": 0.6040505176428537,
+                        "InverseConsistencyDSC": 0.8848962720151119
+                    }
+                },
+                {
+                    "MGH10/g3_to_g1.mha": {
+                        "DSC": 0.573079099552497,
+                        "InverseConsistencyDSC": 0.831701847789777
+                    },
+                    "MGH10/g1_to_g3.mha": {
+                        "DSC": 0.587123286718515,
+                        "InverseConsistencyDSC": 0.8345830528005801
+                    }
+                }
+            ],
+            "SPREAD": [
+                {
+                    "SPREAD/p000/baseline_to_followup.mha": {
+                        "TRE": 5.628624919037252,
+                        "InverseConsistencyTRE": 3.5439201802719076,
+                        "Hausdorff": 15.372080579144635
+                    },
+                    "SPREAD/p000/followup_to_baseline.mha": {
+                        "TRE": 6.497645875174426,
+                        "InverseConsistencyTRE": 3.3785966538308414,
+                        "Hausdorff": 19.85644763341074
+                    }
+                },
+                {
+                    "SPREAD/p001/followup_to_baseline.mha": {
+                        "TRE": 1.8314110269205157,
+                        "InverseConsistencyTRE": 0.9736271368621798,
+                        "Hausdorff": 7.422710754959092
+                    },
+                    "SPREAD/p001/baseline_to_followup.mha": {
+                        "TRE": 1.6321425317167553,
+                        "InverseConsistencyTRE": 1.0075819854489918,
+                        "Hausdorff": 5.254044056286555
+                    }
+                }
+            ]
+        },
+        "ITKv4_SVF_ANTS_CC": {
             "POPI": [
                 {
                     "POPI/bh/50_to_00.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "TRE": 6.675043883782886,
+                        "InverseConsistencyTRE": 0.00017276794853264348,
+                        "Hausdorff": 14.241797035823964
                     },
                     "POPI/bh/00_to_50.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "TRE": 6.67505615482973,
+                        "InverseConsistencyTRE": 0.0001742225776658487,
+                        "Hausdorff": 14.241811697702095
                     }
                 },
                 {
                     "POPI/bl/50_to_00.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "TRE": 5.72134762104158,
+                        "InverseConsistencyTRE": 0.0002711706264643578,
+                        "Hausdorff": 14.031720910988783
                     },
                     "POPI/bl/00_to_50.mha": {
-                        "TRE": NaN,
-                        "Hausdorff": NaN,
-                        "InverseConsistencyTRE": NaN
+                        "TRE": 5.721398042082401,
+                        "InverseConsistencyTRE": 0.00026734069557524386,
+                        "Hausdorff": 14.03251023348015
                     }
                 }
             ],
-            "EMPIRE": [
-                null,
-                null
-            ]
-        },
-        "ITKv4_SVF_ANTS_CC": {
             "CUMC12": [
                 {
                     "CUMC12/m1_to_m12.mha": {
@@ -906,131 +568,87 @@
                     }
                 },
                 {
-                    "CUMC12/m1_to_m9.mha": {
-                        "DSC": 0.5182134945541812,
-                        "InverseConsistencyDSC": 1.0
-                    },
                     "CUMC12/m9_to_m1.mha": {
                         "DSC": 0.5182134945541812,
                         "InverseConsistencyDSC": 1.0
-                    }
-                }
-            ],
-            "SPREAD": [
-                {
-                    "SPREAD/p000/followup_to_baseline.mha": {
-                        "TRE": 34.271530715266806,
-                        "Hausdorff": 49.343928887472465,
-                        "InverseConsistencyTRE": 0.0005361926111793338
                     },
-                    "SPREAD/p000/baseline_to_followup.mha": {
-                        "TRE": 34.271594335114386,
-                        "Hausdorff": 49.343771862439795,
-                        "InverseConsistencyTRE": 0.0005224426198151669
-                    }
-                },
-                {
-                    "SPREAD/p001/baseline_to_followup.mha": {
-                        "TRE": 1010.4144936587613,
-                        "Hausdorff": 1018.6748390296091,
-                        "InverseConsistencyTRE": 0.0
-                    },
-                    "SPREAD/p001/followup_to_baseline.mha": {
-                        "TRE": 1010.4144936587613,
-                        "Hausdorff": 1018.6748390296091,
-                        "InverseConsistencyTRE": 0.0
-                    }
-                }
-            ],
-            "ISBR18": [
-                {
-                    "ISBR18/c10_to_c12.mha": {
-                        "DSC": 0.37900431633234166,
+                    "CUMC12/m1_to_m9.mha": {
+                        "DSC": 0.5182134945541812,
                         "InverseConsistencyDSC": 1.0
-                    },
-                    "ISBR18/c12_to_c10.mha": {
-                        "DSC": 0.37900431633234166,
-                        "InverseConsistencyDSC": 1.0
-                    }
-                },
-                {
-                    "ISBR18/c10_to_c14.mha": {
-                        "DSC": 0.22381342750241726,
-                        "InverseConsistencyDSC": 0.9877931609502267
-                    },
-                    "ISBR18/c14_to_c10.mha": {
-                        "DSC": 0.22605752711152305,
-                        "InverseConsistencyDSC": 1.0
-                    }
-                }
-            ],
-            "MGH10": [
-                {
-                    "MGH10/g9_to_g1.mha": {
-                        "DSC": 0.6036829519807929,
-                        "InverseConsistencyDSC": 1.0
-                    },
-                    "MGH10/g1_to_g9.mha": {
-                        "DSC": 0.6036829519807929,
-                        "InverseConsistencyDSC": 1.0
-                    }
-                },
-                {
-                    "MGH10/g3_to_g1.mha": {
-                        "DSC": 0.5300166954627012,
-                        "InverseConsistencyDSC": 1.0
-                    },
-                    "MGH10/g1_to_g3.mha": {
-                        "DSC": 0.5300166954627012,
-                        "InverseConsistencyDSC": 1.0
-                    }
-                }
-            ],
-            "HAMMERS": [
-                {
-                    "HAMMERS/a28.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a01.nii_to_a28.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    }
-                },
-                {
-                    "HAMMERS/a01.nii_to_a26.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
-                    "HAMMERS/a26.nii_to_a01.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
                     }
                 }
             ],
             "DIRLAB": [
                 {
-                    "DIRLAB/Case10Pack/00_to_50.mha": {
-                        "TRE": 3.7716869408385194,
-                        "Hausdorff": 14.141155719942262,
-                        "InverseConsistencyTRE": 0.00014873580878330483
-                    },
                     "DIRLAB/Case10Pack/50_to_00.mha": {
                         "TRE": 3.7716398890079486,
-                        "Hausdorff": 14.140891314383259,
-                        "InverseConsistencyTRE": 0.00016221010413289285
+                        "InverseConsistencyTRE": 0.00016221010413289285,
+                        "Hausdorff": 14.140891314383259
+                    },
+                    "DIRLAB/Case10Pack/00_to_50.mha": {
+                        "TRE": 3.7716869408385194,
+                        "InverseConsistencyTRE": 0.00014873580878330483,
+                        "Hausdorff": 14.141155719942262
                     }
                 },
                 {
-                    "DIRLAB/Case1Pack/50_to_00.mha": {
-                        "TRE": 1.9709383814229,
-                        "Hausdorff": 5.998786745201079,
-                        "InverseConsistencyTRE": 9.738338088347264e-05
-                    },
                     "DIRLAB/Case1Pack/00_to_50.mha": {
                         "TRE": 1.9709561147866366,
-                        "Hausdorff": 5.998843409016434,
-                        "InverseConsistencyTRE": 9.378305149859458e-05
+                        "InverseConsistencyTRE": 9.378305149859458e-05,
+                        "Hausdorff": 5.998843409016434
+                    },
+                    "DIRLAB/Case1Pack/50_to_00.mha": {
+                        "TRE": 1.9709383814229,
+                        "InverseConsistencyTRE": 9.738338088347264e-05,
+                        "Hausdorff": 5.998786745201079
+                    }
+                }
+            ],
+            "EMPIRE": [
+                null,
+                null
+            ],
+            "HAMMERS": [
+                {
+                    "HAMMERS/a01.nii_to_a28.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a28.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/a26.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a01.nii_to_a26.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ],
+            "ISBR18": [
+                {
+                    "ISBR18/c12_to_c10.mha": {
+                        "DSC": 0.37900431633234166,
+                        "InverseConsistencyDSC": 1.0
+                    },
+                    "ISBR18/c10_to_c12.mha": {
+                        "DSC": 0.37900431633234166,
+                        "InverseConsistencyDSC": 1.0
+                    }
+                },
+                {
+                    "ISBR18/c14_to_c10.mha": {
+                        "DSC": 0.22605752711152305,
+                        "InverseConsistencyDSC": 1.0
+                    },
+                    "ISBR18/c10_to_c14.mha": {
+                        "DSC": 0.22381342750241726,
+                        "InverseConsistencyDSC": 0.9877931609502267
                     }
                 }
             ],
@@ -1046,39 +664,115 @@
                     }
                 },
                 {
-                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": 0.5676225052142673,
-                        "InverseConsistencyDSC": 0.9999329354168064
-                    },
                     "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
                         "DSC": 0.5675914094305009,
                         "InverseConsistencyDSC": 0.9998499727482144
+                    },
+                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
+                        "DSC": 0.5676225052142673,
+                        "InverseConsistencyDSC": 0.9999329354168064
                     }
                 }
             ],
+            "MGH10": [
+                {
+                    "MGH10/g1_to_g9.mha": {
+                        "DSC": 0.6036829519807929,
+                        "InverseConsistencyDSC": 1.0
+                    },
+                    "MGH10/g9_to_g1.mha": {
+                        "DSC": 0.6036829519807929,
+                        "InverseConsistencyDSC": 1.0
+                    }
+                },
+                {
+                    "MGH10/g3_to_g1.mha": {
+                        "DSC": 0.5300166954627012,
+                        "InverseConsistencyDSC": 1.0
+                    },
+                    "MGH10/g1_to_g3.mha": {
+                        "DSC": 0.5300166954627012,
+                        "InverseConsistencyDSC": 1.0
+                    }
+                }
+            ],
+            "SPREAD": [
+                {
+                    "SPREAD/p000/baseline_to_followup.mha": {
+                        "TRE": 34.271594335114386,
+                        "InverseConsistencyTRE": 0.0005224426198151669,
+                        "Hausdorff": 49.343771862439795
+                    },
+                    "SPREAD/p000/followup_to_baseline.mha": {
+                        "TRE": 34.271530715266806,
+                        "InverseConsistencyTRE": 0.0005361926111793338,
+                        "Hausdorff": 49.343928887472465
+                    }
+                },
+                {
+                    "SPREAD/p001/followup_to_baseline.mha": {
+                        "TRE": 1010.4144936587613,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 1018.6748390296091
+                    },
+                    "SPREAD/p001/baseline_to_followup.mha": {
+                        "TRE": 1010.4144936587613,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 1018.6748390296091
+                    }
+                }
+            ]
+        },
+        "BSplineTransformPOPI": {
             "POPI": [
                 {
                     "POPI/bh/50_to_00.mha": {
-                        "TRE": 6.675043883782886,
-                        "Hausdorff": 14.241797035823964,
-                        "InverseConsistencyTRE": 0.00017276794853264348
+                        "TRE": 1.2689896970022456,
+                        "InverseConsistencyTRE": 0.5407680906859841,
+                        "Hausdorff": 8.446506651339634
                     },
                     "POPI/bh/00_to_50.mha": {
-                        "TRE": 6.67505615482973,
-                        "Hausdorff": 14.241811697702095,
-                        "InverseConsistencyTRE": 0.0001742225776658487
+                        "TRE": 1.2700437871428434,
+                        "InverseConsistencyTRE": 0.5420111239547837,
+                        "Hausdorff": 8.245264185585556
                     }
                 },
                 {
                     "POPI/bl/50_to_00.mha": {
-                        "TRE": 5.72134762104158,
-                        "Hausdorff": 14.031720910988783,
-                        "InverseConsistencyTRE": 0.0002711706264643578
+                        "TRE": 1.1490280167678604,
+                        "InverseConsistencyTRE": 0.5445024962927247,
+                        "Hausdorff": 4.885551785775276
                     },
                     "POPI/bl/00_to_50.mha": {
-                        "TRE": 5.721398042082401,
-                        "Hausdorff": 14.03251023348015,
-                        "InverseConsistencyTRE": 0.00026734069557524386
+                        "TRE": 1.2267041281617217,
+                        "InverseConsistencyTRE": 0.5386004586607579,
+                        "Hausdorff": 3.571727448472371
+                    }
+                }
+            ],
+            "SPREAD": [
+                {
+                    "SPREAD/p000/baseline_to_followup.mha": {
+                        "TRE": 1.6920805472601925,
+                        "InverseConsistencyTRE": 0.651753204301878,
+                        "Hausdorff": 14.287158789977015
+                    },
+                    "SPREAD/p000/followup_to_baseline.mha": {
+                        "TRE": 1.8014246630160613,
+                        "InverseConsistencyTRE": 0.6070470979201259,
+                        "Hausdorff": 13.621956809163423
+                    }
+                },
+                {
+                    "SPREAD/p001/followup_to_baseline.mha": {
+                        "TRE": 1.3744893860568523,
+                        "InverseConsistencyTRE": 0.38092830717294673,
+                        "Hausdorff": 6.745258682582975
+                    },
+                    "SPREAD/p001/baseline_to_followup.mha": {
+                        "TRE": 1.3295240190149398,
+                        "InverseConsistencyTRE": 0.39860838303171875,
+                        "Hausdorff": 7.05788530865024
                     }
                 }
             ],
@@ -1087,84 +781,158 @@
                 null
             ]
         },
-        "NiftyReg": {
-            "CUMC12": [
+        "NiftyRegITKHybrid": {
+            "POPI": [
                 {
-                    "CUMC12/m1_to_m12.mha": {
-                        "DSC": 0.05995569464328647,
-                        "InverseConsistencyDSC": 0.03802973822085597
+                    "POPI/bh/50_to_00.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     },
-                    "CUMC12/m12_to_m1.mha": {
-                        "DSC": 0.052054618141087666,
-                        "InverseConsistencyDSC": 0.05081188161296437
+                    "POPI/bh/00_to_50.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     }
                 },
                 {
-                    "CUMC12/m1_to_m9.mha": {
-                        "DSC": 0.07642166927898066,
-                        "InverseConsistencyDSC": 0.08138712794287466
+                    "POPI/bl/50_to_00.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     },
-                    "CUMC12/m9_to_m1.mha": {
-                        "DSC": 0.08064060658137336,
-                        "InverseConsistencyDSC": 0.07830379238373478
+                    "POPI/bl/00_to_50.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
                     }
                 }
             ],
-            "SPREAD": [
+            "CUMC12": [
                 {
-                    "SPREAD/p000/followup_to_baseline.mha": {
-                        "TRE": 34.27178460115402,
-                        "Hausdorff": 49.34404965140174,
-                        "InverseConsistencyTRE": 0.0
+                    "CUMC12/m1_to_m12.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
-                    "SPREAD/p000/baseline_to_followup.mha": {
-                        "TRE": 34.27178460115402,
-                        "Hausdorff": 49.34404965140174,
-                        "InverseConsistencyTRE": 0.0
+                    "CUMC12/m12_to_m1.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "SPREAD/p001/baseline_to_followup.mha": {
-                        "TRE": 1010.4144936587613,
-                        "Hausdorff": 1018.6748390296091,
-                        "InverseConsistencyTRE": 0.0
+                    "CUMC12/m9_to_m1.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
-                    "SPREAD/p001/followup_to_baseline.mha": {
-                        "TRE": 1010.4144936587613,
-                        "Hausdorff": 1018.6748390296091,
-                        "InverseConsistencyTRE": 0.0
+                    "CUMC12/m1_to_m9.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ],
+            "DIRLAB": [
+                {
+                    "DIRLAB/Case10Pack/50_to_00.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "DIRLAB/Case10Pack/00_to_50.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    }
+                },
+                {
+                    "DIRLAB/Case1Pack/00_to_50.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "DIRLAB/Case1Pack/50_to_00.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    }
+                }
+            ],
+            "EMPIRE": [
+                null,
+                null
+            ],
+            "HAMMERS": [
+                {
+                    "HAMMERS/a01.nii_to_a28.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a28.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/a26.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a01.nii_to_a26.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ],
             "ISBR18": [
                 {
-                    "ISBR18/c10_to_c12.mha": {
-                        "DSC": 0.02699595595372188,
-                        "InverseConsistencyDSC": 0.033952930339404205
-                    },
                     "ISBR18/c12_to_c10.mha": {
-                        "DSC": 0.03972083457562353,
-                        "InverseConsistencyDSC": 0.03231269003081084
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "ISBR18/c10_to_c12.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "ISBR18/c10_to_c14.mha": {
-                        "DSC": 0.024511311730056447,
-                        "InverseConsistencyDSC": 0.022110330828695027
-                    },
                     "ISBR18/c14_to_c10.mha": {
-                        "DSC": 0.024305325022640177,
-                        "InverseConsistencyDSC": 0.025947892941431086
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "ISBR18/c10_to_c14.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ],
+            "LPBA40": [
+                {
+                    "LPBA40/S07.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "LPBA40/S01.delineation.skullstripped_to_S07.delineation.skullstripped.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ],
             "MGH10": [
                 {
-                    "MGH10/g9_to_g1.mha": {
+                    "MGH10/g1_to_g9.mha": {
                         "DSC": NaN,
                         "InverseConsistencyDSC": NaN
                     },
-                    "MGH10/g1_to_g9.mha": {
+                    "MGH10/g9_to_g1.mha": {
                         "DSC": NaN,
                         "InverseConsistencyDSC": NaN
                     }
@@ -1180,51 +948,265 @@
                     }
                 }
             ],
+            "SPREAD": [
+                {
+                    "SPREAD/p000/baseline_to_followup.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "SPREAD/p000/followup_to_baseline.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    }
+                },
+                {
+                    "SPREAD/p001/followup_to_baseline.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    },
+                    "SPREAD/p001/baseline_to_followup.mha": {
+                        "TRE": NaN,
+                        "InverseConsistencyTRE": NaN,
+                        "Hausdorff": NaN
+                    }
+                }
+            ]
+        },
+        "BSplineTransformBrains": {
+            "MGH10": [
+                {
+                    "MGH10/g1_to_g9.mha": {
+                        "DSC": 0.5796685303496498,
+                        "InverseConsistencyDSC": 0.8451838938142513
+                    },
+                    "MGH10/g9_to_g1.mha": {
+                        "DSC": 0.5733094727939718,
+                        "InverseConsistencyDSC": 0.8339863603806725
+                    }
+                },
+                {
+                    "MGH10/g3_to_g1.mha": {
+                        "DSC": 0.5509899447601887,
+                        "InverseConsistencyDSC": 0.8174499532315525
+                    },
+                    "MGH10/g1_to_g3.mha": {
+                        "DSC": 0.5496764653803978,
+                        "InverseConsistencyDSC": 0.8256946684708409
+                    }
+                }
+            ],
+            "ISBR18": [
+                {
+                    "ISBR18/c12_to_c10.mha": {
+                        "DSC": 0.3377825665106755,
+                        "InverseConsistencyDSC": 0.5886498809754975
+                    },
+                    "ISBR18/c10_to_c12.mha": {
+                        "DSC": 0.309198783494713,
+                        "InverseConsistencyDSC": 0.5466346979981098
+                    }
+                },
+                {
+                    "ISBR18/c14_to_c10.mha": {
+                        "DSC": 0.26042641745163453,
+                        "InverseConsistencyDSC": 0.629436272770586
+                    },
+                    "ISBR18/c10_to_c14.mha": {
+                        "DSC": 0.24856716067010148,
+                        "InverseConsistencyDSC": 0.6691738843584715
+                    }
+                }
+            ],
+            "LPBA40": [
+                {
+                    "LPBA40/S07.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
+                        "DSC": 0.7318562636561292,
+                        "InverseConsistencyDSC": 0.8009545734105236
+                    },
+                    "LPBA40/S01.delineation.skullstripped_to_S07.delineation.skullstripped.mha": {
+                        "DSC": 0.7402378325150845,
+                        "InverseConsistencyDSC": 0.8034519619920923
+                    }
+                },
+                {
+                    "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
+                        "DSC": 0.7050184766937789,
+                        "InverseConsistencyDSC": 0.7953475070280269
+                    },
+                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
+                        "DSC": 0.7164045392543502,
+                        "InverseConsistencyDSC": 0.7915260035282088
+                    }
+                }
+            ],
+            "CUMC12": [
+                {
+                    "CUMC12/m1_to_m12.mha": {
+                        "DSC": 0.5806383641495534,
+                        "InverseConsistencyDSC": 0.6987081922022318
+                    },
+                    "CUMC12/m12_to_m1.mha": {
+                        "DSC": 0.5821410443420377,
+                        "InverseConsistencyDSC": 0.6856787383493539
+                    }
+                },
+                {
+                    "CUMC12/m9_to_m1.mha": {
+                        "DSC": 0.5786512515780533,
+                        "InverseConsistencyDSC": 0.7109514244490339
+                    },
+                    "CUMC12/m1_to_m9.mha": {
+                        "DSC": 0.5834588909745464,
+                        "InverseConsistencyDSC": 0.6992855013863598
+                    }
+                }
+            ],
             "HAMMERS": [
                 {
-                    "HAMMERS/a28.nii_to_a01.nii.mha": {
+                    "HAMMERS/a01.nii_to_a28.nii.mha": {
                         "DSC": NaN,
                         "InverseConsistencyDSC": NaN
                     },
-                    "HAMMERS/a01.nii_to_a28.nii.mha": {
+                    "HAMMERS/a28.nii_to_a01.nii.mha": {
                         "DSC": NaN,
                         "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/a01.nii_to_a26.nii.mha": {
-                        "DSC": NaN,
-                        "InverseConsistencyDSC": NaN
-                    },
                     "HAMMERS/a26.nii_to_a01.nii.mha": {
                         "DSC": NaN,
                         "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a01.nii_to_a26.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ]
+        },
+        "NiftyReg": {
+            "POPI": [
+                {
+                    "POPI/bh/50_to_00.mha": {
+                        "TRE": 6.678358870548873,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 14.243173803615543
+                    },
+                    "POPI/bh/00_to_50.mha": {
+                        "TRE": 6.678358870548873,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 14.243173803615543
+                    }
+                },
+                {
+                    "POPI/bl/50_to_00.mha": {
+                        "TRE": 5.728273801067786,
+                        "InverseConsistencyTRE": 0.0351138822227831,
+                        "Hausdorff": 14.034021075942562
+                    },
+                    "POPI/bl/00_to_50.mha": {
+                        "TRE": 5.706811818755949,
+                        "InverseConsistencyTRE": 0.040825692974448505,
+                        "Hausdorff": 14.034021075942562
+                    }
+                }
+            ],
+            "CUMC12": [
+                {
+                    "CUMC12/m1_to_m12.mha": {
+                        "DSC": 0.05995569464328647,
+                        "InverseConsistencyDSC": 0.03802973822085597
+                    },
+                    "CUMC12/m12_to_m1.mha": {
+                        "DSC": 0.052054618141087666,
+                        "InverseConsistencyDSC": 0.05081188161296437
+                    }
+                },
+                {
+                    "CUMC12/m9_to_m1.mha": {
+                        "DSC": 0.08064060658137336,
+                        "InverseConsistencyDSC": 0.07830379238373478
+                    },
+                    "CUMC12/m1_to_m9.mha": {
+                        "DSC": 0.07642166927898066,
+                        "InverseConsistencyDSC": 0.08138712794287466
                     }
                 }
             ],
             "DIRLAB": [
                 {
-                    "DIRLAB/Case10Pack/00_to_50.mha": {
-                        "TRE": 4.444238582578446,
-                        "Hausdorff": 13.699441940090123,
-                        "InverseConsistencyTRE": 1.1347788305218793
-                    },
                     "DIRLAB/Case10Pack/50_to_00.mha": {
                         "TRE": 4.364858812746118,
-                        "Hausdorff": 14.12665446280983,
-                        "InverseConsistencyTRE": 1.1665457715465963
+                        "InverseConsistencyTRE": 1.1665457715465963,
+                        "Hausdorff": 14.12665446280983
+                    },
+                    "DIRLAB/Case10Pack/00_to_50.mha": {
+                        "TRE": 4.444238582578446,
+                        "InverseConsistencyTRE": 1.1347788305218793,
+                        "Hausdorff": 13.699441940090123
                     }
                 },
                 {
-                    "DIRLAB/Case1Pack/50_to_00.mha": {
-                        "TRE": 2.8496031398335915,
-                        "Hausdorff": 9.965035871217129,
-                        "InverseConsistencyTRE": 0.7215016297009288
-                    },
                     "DIRLAB/Case1Pack/00_to_50.mha": {
                         "TRE": 2.671905987125355,
-                        "Hausdorff": 8.489572261585154,
-                        "InverseConsistencyTRE": 0.6990349361311718
+                        "InverseConsistencyTRE": 0.6990349361311718,
+                        "Hausdorff": 8.489572261585154
+                    },
+                    "DIRLAB/Case1Pack/50_to_00.mha": {
+                        "TRE": 2.8496031398335915,
+                        "InverseConsistencyTRE": 0.7215016297009288,
+                        "Hausdorff": 9.965035871217129
+                    }
+                }
+            ],
+            "EMPIRE": [
+                null,
+                null
+            ],
+            "HAMMERS": [
+                {
+                    "HAMMERS/a01.nii_to_a28.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a28.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/a26.nii_to_a01.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/a01.nii_to_a26.nii.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ],
+            "ISBR18": [
+                {
+                    "ISBR18/c12_to_c10.mha": {
+                        "DSC": 0.03972083457562353,
+                        "InverseConsistencyDSC": 0.03231269003081084
+                    },
+                    "ISBR18/c10_to_c12.mha": {
+                        "DSC": 0.02699595595372188,
+                        "InverseConsistencyDSC": 0.033952930339404205
+                    }
+                },
+                {
+                    "ISBR18/c14_to_c10.mha": {
+                        "DSC": 0.024305325022640177,
+                        "InverseConsistencyDSC": 0.025947892941431086
+                    },
+                    "ISBR18/c10_to_c14.mha": {
+                        "DSC": 0.024511311730056447,
+                        "InverseConsistencyDSC": 0.022110330828695027
                     }
                 }
             ],
@@ -1240,45 +1222,63 @@
                     }
                 },
                 {
-                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
-                        "DSC": 0.48162266406523135,
-                        "InverseConsistencyDSC": 0.7811736214076074
-                    },
                     "LPBA40/S01.delineation.skullstripped_to_S12.delineation.skullstripped.mha": {
                         "DSC": 0.4671634314752482,
                         "InverseConsistencyDSC": 0.7934199248992581
+                    },
+                    "LPBA40/S12.delineation.skullstripped_to_S01.delineation.skullstripped.mha": {
+                        "DSC": 0.48162266406523135,
+                        "InverseConsistencyDSC": 0.7811736214076074
                     }
                 }
             ],
-            "POPI": [
+            "MGH10": [
                 {
-                    "POPI/bh/50_to_00.mha": {
-                        "TRE": 6.678358870548873,
-                        "Hausdorff": 14.243173803615543,
-                        "InverseConsistencyTRE": 0.0
+                    "MGH10/g1_to_g9.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
-                    "POPI/bh/00_to_50.mha": {
-                        "TRE": 6.678358870548873,
-                        "Hausdorff": 14.243173803615543,
-                        "InverseConsistencyTRE": 0.0
+                    "MGH10/g9_to_g1.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "POPI/bl/50_to_00.mha": {
-                        "TRE": 5.728273801067786,
-                        "Hausdorff": 14.034021075942562,
-                        "InverseConsistencyTRE": 0.0351138822227831
+                    "MGH10/g3_to_g1.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
-                    "POPI/bl/00_to_50.mha": {
-                        "TRE": 5.706811818755949,
-                        "Hausdorff": 14.034021075942562,
-                        "InverseConsistencyTRE": 0.040825692974448505
+                    "MGH10/g1_to_g3.mha": {
+                        "DSC": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ],
-            "EMPIRE": [
-                null,
-                null
+            "SPREAD": [
+                {
+                    "SPREAD/p000/baseline_to_followup.mha": {
+                        "TRE": 34.27178460115402,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 49.34404965140174
+                    },
+                    "SPREAD/p000/followup_to_baseline.mha": {
+                        "TRE": 34.27178460115402,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 49.34404965140174
+                    }
+                },
+                {
+                    "SPREAD/p001/followup_to_baseline.mha": {
+                        "TRE": 1010.4144936587613,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 1018.6748390296091
+                    },
+                    "SPREAD/p001/baseline_to_followup.mha": {
+                        "TRE": 1010.4144936587613,
+                        "InverseConsistencyTRE": 0.0,
+                        "Hausdorff": 1018.6748390296091
+                    }
+                }
             ]
         }
     }
