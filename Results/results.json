@@ -1,981 +1,330 @@
 {
-    "TeamPolycarp": {
-        "AffineTransform": {}
-    },
     "TeamRadboudumc": {
         "BSplineTransformLungSSD": {},
         "BSplineTransformLungMI": {}
     },
     "TeamElastix": {
         "AffineTransformHisto": {},
-        "NiftyReg": {
+        "IdentityTransform": {
             "HAMMERS": [
                 {
-                    "HAMMERS/movinga06_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga06_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga19_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda19.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga19_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga01_to_fixeda23.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga23_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda23.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga26_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga01_to_fixeda26.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda28.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga28_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga03_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda03.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga04_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda04.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga06_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga08_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda08.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga09_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
                         "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "InverseConsistencyDSC": NaN
                     },
-                    "HAMMERS/movinga02_to_fixeda09.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga11_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda11.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga02_to_fixeda12.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga12_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga02_to_fixeda13.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga13_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga02_to_fixeda15.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga15_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga16_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda16.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                }
-            ]
-        },
-        "BSplineTransformBrains": {
-            "HAMMERS": [
-                {
-                    "HAMMERS/movinga06_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga01_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga19_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga01_to_fixeda19.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga01_to_fixeda23.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga23_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga26_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga01_to_fixeda26.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga01_to_fixeda28.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga28_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga01_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga03_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda03.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga04_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda04.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga06_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
                     "HAMMERS/movinga08_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda08.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
                         "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga09_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda09.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga11_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
                         "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "InverseConsistencyDSC": NaN
                     },
-                    "HAMMERS/movinga02_to_fixeda11.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga02_to_fixeda12.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga12_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga02_to_fixeda13.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga13_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga02_to_fixeda15.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga15_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga16_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda16.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                }
-            ]
-        },
-        "NiftyRegITKHybrid": {
-            "HAMMERS": [
-                {
-                    "HAMMERS/movinga06_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga01_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga19_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga01_to_fixeda19.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga01_to_fixeda23.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga23_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga26_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga01_to_fixeda26.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga01_to_fixeda28.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga28_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga01_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga03_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda03.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga04_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda04.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga06_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
-                    "HAMMERS/movinga08_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda08.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    }
-                },
-                {
                     "HAMMERS/movinga09_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
-                    "HAMMERS/movinga02_to_fixeda09.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
                         "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga11_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda11.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga11_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda12.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga12_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda12.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda13.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga13_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda13.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda15.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga15_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda15.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga16_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda16.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga16_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ]
@@ -983,323 +332,972 @@
         "ITKv4_SVF_ANTS_CC": {
             "HAMMERS": [
                 {
-                    "HAMMERS/movinga06_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga06_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga19_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda19.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga19_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga01_to_fixeda23.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga23_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda23.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga26_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga01_to_fixeda26.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda28.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga28_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga03_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda03.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga04_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda04.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga06_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga08_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda08.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga08_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga09_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda09.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga09_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga11_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda11.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga11_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda12.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga12_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda12.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda13.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga13_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda13.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda15.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga15_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda15.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga16_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda16.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga16_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ]
+        },
+        "ITKv4_SyN_CC": {
+            "HAMMERS": [
+                {
+                    "HAMMERS/movinga01_to_fixeda06.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga06_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga01_to_fixeda19.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga19_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga23_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda23.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga26_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda26.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga01_to_fixeda28.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga28_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga01_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga03_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda03.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga04_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda04.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga06_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda06.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda08.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga08_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda09.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga09_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda11.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga11_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga12_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda12.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga13_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda13.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga15_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda15.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda16.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga16_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                }
+            ]
+        },
+        "BSplineTransformDIRLAB": {},
+        "NiftyRegITKHybrid": {
+            "HAMMERS": [
+                {
+                    "HAMMERS/movinga01_to_fixeda06.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga06_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga01_to_fixeda19.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga19_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga23_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda23.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga26_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda26.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga01_to_fixeda28.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga28_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga01_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga03_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda03.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga04_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda04.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga06_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda06.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda08.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga08_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda09.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga09_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda11.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga11_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga12_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda12.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga13_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda13.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga15_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda15.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    }
+                },
+                {
+                    "HAMMERS/movinga02_to_fixeda16.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga16_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
+                        "Jaccard Coefficient": NaN,
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ]
@@ -1307,981 +1305,983 @@
         "AffineTransform": {
             "HAMMERS": [
                 {
-                    "HAMMERS/movinga06_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga06_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga19_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda19.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga19_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga01_to_fixeda23.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga23_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda23.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga26_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga01_to_fixeda26.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda28.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga28_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga03_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda03.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga04_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda04.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga06_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga08_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda08.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga08_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga09_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda09.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga09_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga11_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda11.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga11_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda12.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga12_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda12.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda13.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga13_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda13.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda15.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga15_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda15.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga16_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda16.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga16_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ]
         },
-        "BSplineTransformDIRLAB": {},
-        "BSplineTransformPOPI": {},
-        "ITKv4_SyN_CC": {
+        "NiftyReg": {
             "HAMMERS": [
                 {
-                    "HAMMERS/movinga06_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga06_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga19_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda19.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga19_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga01_to_fixeda23.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga23_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda23.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga26_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga01_to_fixeda26.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda28.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga28_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga03_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda03.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga04_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda04.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga06_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga08_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda08.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga08_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga09_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda09.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga09_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga11_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda11.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga11_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda12.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga12_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda12.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda13.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga13_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda13.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda15.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga15_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda15.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga16_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda16.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga16_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ]
         },
-        "IdentityTransform": {
+        "BSplineTransformBrains": {
             "HAMMERS": [
                 {
-                    "HAMMERS/movinga06_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga06_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga19_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga01_to_fixeda19.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga19_to_fixeda01.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga01_to_fixeda23.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga23_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga01_to_fixeda23.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga26_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga01_to_fixeda26.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda28.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga28_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga01_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda01.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga03_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda03.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga04_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda04.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
                     "HAMMERS/movinga06_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     },
                     "HAMMERS/movinga02_to_fixeda06.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga08_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda08.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga08_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga09_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda09.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga09_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga11_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda11.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga11_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda12.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga12_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda12.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda13.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga13_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda13.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga02_to_fixeda15.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga15_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga02_to_fixeda15.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 },
                 {
-                    "HAMMERS/movinga16_to_fixeda02.mha": {
-                        "InverseConsistencyDSC": NaN,
-                        "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
-                        "FalsePositiveError": NaN,
-                        "FalseNegativeError": NaN,
-                        "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
-                    },
                     "HAMMERS/movinga02_to_fixeda16.mha": {
-                        "InverseConsistencyDSC": NaN,
+                        "Dice Similarity Coefficient": NaN,
                         "VolumeSimilarity": NaN,
-                        "Union Coefficient": NaN,
+                        "Jaccard Coefficient": NaN,
                         "FalsePositiveError": NaN,
                         "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
+                    },
+                    "HAMMERS/movinga16_to_fixeda02.mha": {
+                        "Dice Similarity Coefficient": NaN,
+                        "VolumeSimilarity": NaN,
                         "Jaccard Coefficient": NaN,
-                        "Dice Similarity Coefficient": NaN
+                        "FalsePositiveError": NaN,
+                        "FalseNegativeError": NaN,
+                        "Union Coefficient": NaN,
+                        "InverseConsistencyDSC": NaN
                     }
                 }
             ]
-        }
+        },
+        "BSplineTransformPOPI": {}
+    },
+    "TeamPolycarp": {
+        "AffineTransform": {}
     },
     "RB": {
-        "PreliminaryAffine_DIRLAB": {},
+        "PreliminaryAffine_CUMC12": {},
         "PreliminaryAffine_POPI": {},
-        "PreliminaryAffine_CUMC12": {}
+        "PreliminaryAffine_DIRLAB": {}
     }
 }
